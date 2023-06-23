@@ -2,13 +2,12 @@
     position: relative;
     &:before {
         content: "";
-        width: 90rem;
-        height: 90rem;
+        width: 900px;
+        height: 900px;
         position: absolute;
         right: 0;
         z-index: 0;
         background: $color-hero-section;
-        // margin-bottom: 120px;
     }
 }
 
@@ -16,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 7.8rem;
+    margin-bottom: 78px;
     background: transparent;
 }
 
@@ -57,7 +56,7 @@
 }
 
 .info__text {
-    max-width: 73.8rem;
+    max-width: 738px;
     margin-left: -90px;
 }
 

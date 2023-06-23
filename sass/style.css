@@ -456,8 +456,8 @@ p {
 }
 .header:before {
   content: "";
-  width: 90rem;
-  height: 90rem;
+  width: 900px;
+  height: 900px;
   position: absolute;
   right: 0;
   z-index: 0;
@@ -468,7 +468,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 7.8rem;
+  margin-bottom: 78px;
   background: transparent;
 }
 
@@ -510,7 +510,7 @@ p {
 }
 
 .info__text {
-  max-width: 73.8rem;
+  max-width: 738px;
   margin-left: -90px;
 }
 
@@ -526,7 +526,7 @@ p {
 }
 
 .section__experience {
-  margin-top: 20.4rem;
+  margin-top: 204px;
 }
 
 .section__experience-subtitle {
@@ -536,19 +536,19 @@ p {
   font-style: normal;
   color: #8b8b91;
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 
 .section__experience-title {
-  max-width: 69rem;
-  margin-bottom: 4rem;
+  max-width: 690px;
+  margin-bottom: 40px;
 }
 
 .wrapper-companies {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2.4rem;
-  margin-bottom: 14.4rem;
+  gap: 24px;
+  margin-bottom: 144px;
 }
 
 .google-company::before {
@@ -582,7 +582,7 @@ p {
 }
 
 .item-title {
-  margin: 0 0 2.2rem;
+  margin: 0 0 22px;
 }
 .item-title .google-title {
   color: #3CC74E;
@@ -602,7 +602,7 @@ p {
 }
 
 .section-philosophy {
-  margin-bottom: 12rem;
+  margin-bottom: 120px;
 }
 
 .philosophy-wrapper {
@@ -611,12 +611,12 @@ p {
 
 .section-info {
   background: #FFF3E4;
-  padding: 12rem 7.2rem 0;
+  padding: 120px 72px 0;
 }
 
 .philosophy-title {
   color: #000000;
-  margin-bottom: 2.4rem;
+  margin-bottom: 24px;
 }
 
 .philosophy-text {
@@ -626,7 +626,7 @@ p {
   width: 576px;
   line-height: 27px;
   color: #5B6876;
-  margin-bottom: 13.4rem;
+  margin-bottom: 134px;
 }
 
 .section-image {

@@ -1,5 +1,5 @@
 .section__experience {
-    margin-top: 20.4rem;
+    margin-top: 204px;
 }
 
 .section__experience-subtitle {
@@ -7,19 +7,19 @@
     @include font($size: 1.6rem, $weight: 700);
     color: $color-dark-gray;
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
 }
 
 .section__experience-title {
-    max-width: 69rem;
-    margin-bottom: 4rem;
+    max-width: 690px;
+    margin-bottom: 40px;
 }
 
 .wrapper-companies {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.4rem;
-    margin-bottom: 14.4rem;
+    gap: 24px;
+    margin-bottom: 144px;
 }
 
 .google-company::before {
@@ -38,7 +38,7 @@
 }
 
 .item-title {
-    margin: 0 0 2.2rem;
+    margin: 0 0 22px;
     & .google-title {
         color: $color-green-accent;
     };
