@@ -1,0 +1,50 @@
+.skillset-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 48px;
+    margin-bottom: 120px;
+}
+
+.skillset__about {
+    grid-row: 1 / 3;
+}
+
+.skillset-title {
+    margin-bottom: 24px;
+}
+
+.skillset__about-text {
+    @include font($size: 1.8rem, $weight: 400);
+    color: $color-gray;
+}
+
+.skillset__item:nth-child(2)::before {
+    @include skillset-logo();
+    background-image: url('../../img/skillset-icons/product-design.svg');
+} 
+
+.skillset__item:nth-child(3)::before {
+    @include skillset-logo();
+    background-image: url('../../img/skillset-icons/visual-design.svg');
+} 
+
+.skillset__item:nth-child(4)::before {
+    @include skillset-logo();
+    background-image: url('../../img/skillset-icons/motion-design.svg');
+} 
+
+.skillset__item:nth-child(5)::before {
+    @include skillset-logo();
+    background-image: url('../../img/skillset-icons/photography.svg');
+} 
+
+.skillset__item-title {
+    margin-bottom: 12px;
+}
+
+.skillset__item-text {
+    @include font($size: 1.6rem, $weight: 400);
+    color: $color-gray;
+    max-width: 368px;
+}
