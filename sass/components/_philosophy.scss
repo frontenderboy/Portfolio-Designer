@@ -1,0 +1,33 @@
+.philosophy-wrapper {
+    display: flex;
+}
+
+.section-info {
+    background: $color-peach-accent;
+    padding: 12rem 7.2rem 0;
+}
+
+.philosophy-title {
+    color: $color-base;
+    margin-bottom: 2.4rem;
+}
+
+.philosophy-text {
+    @include font($size: 1.8rem, $weight: 400);
+    width: 576px;
+    line-height: 27px;
+    color: $color-light-gray;
+    margin-bottom: 13.4rem;
+}
+
+.section-image {
+    width: 100%;
+}
+
+.link-more {
+    @include font($size: 1.6rem, $weight: 400);
+    color: $color-base;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $color-gray;
+}
