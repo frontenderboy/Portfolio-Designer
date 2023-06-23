@@ -11,3 +11,24 @@ body {
     max-width: 1296px;
     margin: 0 auto;
 }
+
+h1 {
+    @include font($size: 7.8rem, $weight: 700);
+    color: $color-white;
+    margin-bottom: 32px;
+}
+
+h2 {
+    @include font($size: 5.5rem, $weight: 700);
+    color: $color-white;
+    margin: 0;
+}
+
+h3 {
+    @include font($size: 2.4rem, $weight: 700);
+    color: $color-white;
+}
+
+p {
+    margin: 0;
+}

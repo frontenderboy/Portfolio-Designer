@@ -1,0 +1,56 @@
+.section__experience {
+    margin-top: 20.4rem;
+}
+
+.section__experience-subtitle {
+    display: block;
+    @include font($size: 1.6rem, $weight: 700);
+    color: $color-dark-gray;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.section__experience-title {
+    max-width: 69rem;
+    margin-bottom: 4rem;
+}
+
+.wrapper-companies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.4rem;
+    margin-bottom: 14.4rem;
+}
+
+.google-company::before {
+    content: "01";
+    @include company-number;
+}
+
+.facebook-company::before {
+    content: "02";
+    @include company-number;
+}
+
+.dribbble-company::before {
+    content: "03";
+    @include company-number;
+}
+
+.item-title {
+    margin: 0 0 2.2rem;
+    & .google-title {
+        color: $color-green-accent;
+    };
+    & .facebook-title {
+        color: $color-blue-accent;
+    };
+    & .dribbble-title {
+        color: $color-pink-accent;
+    };
+}
+
+.item-text {
+    @include font($size: 1.6rem, $weight: 400);
+    color: $color-gray;
+}
