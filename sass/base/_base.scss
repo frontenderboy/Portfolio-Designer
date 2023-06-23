@@ -1,0 +1,13 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background: $color-base;
+    @extend %font-family;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}

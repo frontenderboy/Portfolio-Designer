@@ -163,7 +163,7 @@
  
  h1 {
    font-size: 2em;
-   margin: 0.67em 0;
+   margin: 0;
  }
  
  @if $legacy_browser_support {
@@ -580,6 +580,7 @@
  ul {
    padding-left: 0;
    list-style: none;
+   margin: 0;
  }
  
  * {

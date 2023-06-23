@@ -1,0 +1,74 @@
+.header {
+    position: relative;
+    &:before {
+        content: "";
+        width: 90rem;
+        height: 90rem;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+        background: $color-hero-section;
+    }
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7.8rem;
+    background: transparent;
+}
+
+.navbar__list {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__list li {
+    display: inline-block;
+}
+
+.navbar__list li a {
+    display: block;
+    padding: 32px 24px;
+    text-decoration: none;
+    color: $color-white;
+}
+
+.list__item {
+    @include font($size: 1.6rem, $weight: 400);
+    @extend %transition;
+    &:last-child {
+        margin-right: 0;
+    };
+    &:hover {
+        cursor: pointer;
+        background-color: $color-primary;
+    }
+}
+
+.main-info {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.info__text {
+    margin-left: -90px;
+}
+
+.info__text-title {
+    @include font($size: 7.8rem, $weight: 700);
+    color: $color-white;
+    margin-bottom: 32px;
+    & span {
+        color: $color-dark-gray
+    }
+}
+
+.info__text-subtitle {
+    @include font($size: 1.8rem, $weight: 400);
+    color: $color-white;
+}
