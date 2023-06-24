@@ -794,4 +794,41 @@ p {
 }
 .projects-link > a:hover {
   background: #5221E6;
+}
+
+.section-dribbble {
+  margin-bottom: 240px;
+}
+
+.dribbble-wrapper {
+  max-width: 1076px;
+  margin: 0 auto;
+}
+
+.section-dribbble-info {
+  max-width: 636px;
+}
+
+.dribbble-title {
+  margin-bottom: 24px;
+}
+
+.dribbble-text {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #8491A0;
+  margin-bottom: 68px;
+}
+
+.dribbble-link {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 4px;
+  margin-bottom: 124px;
 }/*# sourceMappingURL=style.css.map */

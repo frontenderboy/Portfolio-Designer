@@ -1,0 +1,32 @@
+.section-dribbble {
+    margin-bottom: 240px;
+}
+
+.dribbble-wrapper {
+    max-width: 1076px;
+    margin: 0 auto;
+}
+
+.section-dribbble-info {
+    max-width: 636px;
+}
+
+.dribbble-title {
+    margin-bottom: 24px;
+}
+
+.dribbble-text {
+    @include font($size: 1.8rem, $weight: 400);
+    color: $color-gray;
+    margin-bottom: 68px;
+}
+
+.dribbble-link {
+    display: inline-block;
+    @include font($size: 1.6rem, $weight: 400);
+    color: $color-white;
+    text-decoration: none;
+    border-bottom: 1px solid $color-white;
+    padding-bottom: 4px;
+    margin-bottom: 124px;
+}
