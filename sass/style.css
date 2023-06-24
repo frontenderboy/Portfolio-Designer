@@ -449,6 +449,7 @@ h3 {
 
 p {
   margin: 0;
+  line-height: 150%;
 }
 
 .header {
@@ -529,7 +530,7 @@ p {
   margin-top: 204px;
 }
 
-.section__experience-subtitle {
+.section__heading-subtitle {
   display: block;
   font-size: 1.6rem;
   font-weight: 700;
@@ -539,7 +540,7 @@ p {
   margin-bottom: 20px;
 }
 
-.section__experience-title {
+.experience-title {
   max-width: 690px;
   margin-bottom: 40px;
 }
@@ -726,4 +727,57 @@ p {
 .company-item {
   padding: 55px 127px;
   border: 1px solid #181823;
+}
+
+.projects-title {
+  max-width: 572px;
+}
+
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.project__item {
+  max-width: 636px;
+  display: flex;
+  flex-direction: column;
+  background: #181823;
+}
+
+.project__item--2 {
+  margin-top: -550px;
+  height: 809px;
+}
+
+.project__item--4 {
+  margin-top: -550px;
+}
+
+.project__item-info {
+  padding: 40px 32px;
+}
+
+.item-info-text {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #8491A0;
+  margin-top: 13px;
+  max-width: 572px;
+}
+
+.projects-link {
+  margin: auto;
+}
+.projects-link > a {
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #5221E6;
+  padding: 24px 32px;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

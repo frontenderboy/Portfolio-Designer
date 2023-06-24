@@ -1,0 +1,48 @@
+.projects-title {
+    max-width: 572px;
+}
+
+.projects-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.project__item {
+    max-width: 636px;
+    display: flex;
+    flex-direction: column;
+    background: $color-hero-section;
+}
+
+.project__item--2 {
+    margin-top: -550px;
+    height: 809px;
+}
+
+.project__item--4 {
+    margin-top: -550px;
+}
+
+.project__item-info {
+    padding: 40px 32px;
+}
+
+.item-info-text {
+    @include font($size: 1.8rem, $weight: 400);
+    color: $color-gray;
+    margin-top: 13px;
+    max-width: 572px;
+}
+
+.projects-link {
+    margin: auto;
+    & > a {
+        @include font($size: 1.8rem, $weight: 700);
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 1px solid $color-primary;
+        padding: 24px 32px;
+        color: $color-white;
+    }
+}
