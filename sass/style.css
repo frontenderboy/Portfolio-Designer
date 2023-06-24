@@ -406,7 +406,7 @@ body {
   font-family: "Sen", sans-serif;
 }
 
-.list__item {
+.projects-link > a, .list__item {
   transition: all 0.3s ease-out;
 }
 
@@ -602,25 +602,32 @@ p {
   color: #8491A0;
 }
 
-.section-philosophy {
+.article {
   margin-bottom: 120px;
 }
 
-.philosophy-wrapper {
+.article-wrapper {
   display: flex;
 }
 
-.section-info {
-  background: #FFF3E4;
+.article-info {
   padding: 120px 72px 0;
 }
 
-.philosophy-title {
+.article-philosophy {
+  background: #FFF3E4;
+}
+
+.article-instagram {
+  background: #FBE4FF;
+}
+
+.info__text-caption {
   color: #000000;
   margin-bottom: 24px;
 }
 
-.philosophy-text {
+.info__text-text {
   font-size: 1.8rem;
   font-weight: 400;
   font-style: normal;
@@ -630,7 +637,7 @@ p {
   margin-bottom: 134px;
 }
 
-.section-image {
+.article-image {
   width: 100%;
 }
 
@@ -729,6 +736,10 @@ p {
   border: 1px solid #181823;
 }
 
+.section-projects {
+  margin-bottom: 120px;
+}
+
 .projects-title {
   max-width: 572px;
 }
@@ -780,4 +791,7 @@ p {
   border: 1px solid #5221E6;
   padding: 24px 32px;
   color: #ffffff;
+}
+.projects-link > a:hover {
+  background: #5221E6;
 }/*# sourceMappingURL=style.css.map */

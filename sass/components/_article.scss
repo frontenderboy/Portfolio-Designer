@@ -1,22 +1,29 @@
-.section-philosophy {
+.article {
     margin-bottom: 120px;
 }
 
-.philosophy-wrapper {
+.article-wrapper {
     display: flex;
 }
 
-.section-info {
-    background: $color-peach-accent;
+.article-info {
     padding: 120px 72px 0;
 }
 
-.philosophy-title {
+.article-philosophy {
+    background: $color-peach-accent;
+}
+
+.article-instagram {
+    background: $color-violet-accent;
+}
+
+.info__text-caption {
     color: $color-base;
     margin-bottom: 24px;
 }
 
-.philosophy-text {
+.info__text-text {
     @include font($size: 1.8rem, $weight: 400);
     width: 576px;
     line-height: 27px;
@@ -24,7 +31,7 @@
     margin-bottom: 134px;
 }
 
-.section-image {
+.article-image {
     width: 100%;
 }
 

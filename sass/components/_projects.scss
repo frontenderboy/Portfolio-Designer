@@ -1,3 +1,7 @@
+.section-projects {
+    margin-bottom: 120px;
+}
+
 .projects-title {
     max-width: 572px;
 }
@@ -44,5 +48,9 @@
         border: 1px solid $color-primary;
         padding: 24px 32px;
         color: $color-white;
+        @extend %transition;
+    };
+    & > a:hover {
+        background: $color-primary;
     }
 }
