@@ -713,4 +713,13 @@ p {
   font-style: normal;
   color: #8491A0;
   max-width: 368px;
+}
+
+.companies-wrapper {
+  display: flex;
+}
+
+.company-item {
+  padding: 55px 127px;
+  border: 1px solid #181823;
 }/*# sourceMappingURL=style.css.map */
