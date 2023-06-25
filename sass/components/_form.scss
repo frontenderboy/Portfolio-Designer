@@ -1,0 +1,62 @@
+.section-form {
+    margin-bottom: 120px;
+}
+
+.form-wrapper {
+    max-width: 1076px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.form__heading {
+    max-width: 588px;
+}
+
+.form__text {
+    @include font($size: 1.8rem, $weight: 400);
+    color: $color-gray;
+    margin-top: 24px;
+}
+
+.form__inner {
+    max-width: 526px;
+    & > label {
+        display: block;
+        @include font($size: 1.6rem, $weight: 400);
+        color: $color-white;
+        margin-bottom: 8px;
+    }
+}
+
+.form__input {
+    width: 100%;
+    background: $color-hero-section;
+    outline: none;
+    border: none;
+    padding: 20px 15px;
+    @include font($size: 1.8rem, $weight: 400);
+    color: $color-white;
+    margin-bottom: 40px;
+}
+
+.form__input--message {
+    padding: 15px;
+    resize: none;
+}
+
+.form__button {
+    width: 100%;
+    @include font($size: 1.8rem, $weight: 700);
+    color: $color-white;
+    background: $color-primary;
+    border: 1px solid transparent;
+    padding: 24px 32px;
+    @extend %transition;
+    &:hover {
+        background: transparent;
+        border: 1px solid $color-primary;
+    }
+}
