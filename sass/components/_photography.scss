@@ -1,0 +1,44 @@
+.section-photography {
+    margin-bottom: 240px;
+}
+
+.photography__text {
+    @include font($size: 1.8rem, $weight: 400);
+    max-width: 588px;
+    color: $color-gray;
+    margin: 24px 0 76px;
+}
+
+.list-group {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.list-group-item {
+    @include font($size: 1.8rem, $weight: 700);
+    color: $color-white;
+    border: 1px solid $color-primary;
+    padding: 12px 16px;
+    margin-right: 24px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.list-group-item:last-child {
+    margin-right: 0;
+}
+
+.active-tab {
+    background: $color-primary;
+}
+
+.photography-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 24px;
+}
+
+.hidden {
+    display: none;
+}
