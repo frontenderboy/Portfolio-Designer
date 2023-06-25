@@ -1,0 +1,50 @@
+.footer {
+    background: $color-hero-section;
+    padding: 80px 0;
+}
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 300px;
+}
+
+.footer__logo {
+    margin-bottom: 32px;
+}
+
+.socials__media {
+    margin-bottom: 142px;
+}
+
+.social__media-logo {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.social__media-logo:last-child {
+    margin-right: 0;
+}
+
+.footer__copyright {
+    @include font($size: 1.6rem, $weight: 400);
+    color: $color-gray;
+}
+
+.footer__inner-navbar {
+    display: grid;
+    grid-template-columns: repeat(2, 196px);
+    gap: 24px;
+}
+
+.footer__navbar-item {
+    text-decoration: none;
+}
+
+.footer__navbar-item > li{
+    @include font($size: 1.6rem, $weight: 400);
+    color: $color-white;
+    padding-bottom: 30px;
+}

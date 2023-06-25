@@ -416,6 +416,7 @@ body {
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -1026,4 +1027,59 @@ p {
 .form__button:hover {
   background: transparent;
   border: 1px solid #5221E6;
+}
+
+.footer {
+  background: #181823;
+  padding: 80px 0;
+}
+
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 300px;
+}
+
+.footer__logo {
+  margin-bottom: 32px;
+}
+
+.socials__media {
+  margin-bottom: 142px;
+}
+
+.social__media-logo {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.social__media-logo:last-child {
+  margin-right: 0;
+}
+
+.footer__copyright {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #8491A0;
+}
+
+.footer__inner-navbar {
+  display: grid;
+  grid-template-columns: repeat(2, 196px);
+  gap: 24px;
+}
+
+.footer__navbar-item {
+  text-decoration: none;
+}
+
+.footer__navbar-item > li {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  padding-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */
